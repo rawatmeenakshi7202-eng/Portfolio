@@ -35,6 +35,33 @@
   --surface-color: #151f2b;
   --contrast-color: #ffffff;
 }
+.about-quote{
+    margin-top:20px;
+    padding:18px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-left:4px solid #fff;
+    border-radius:12px;
+    position:relative;
+}
+
+.quote-icon{
+    position:absolute;
+    top:-20px;
+    left:7px;
+    font-size:28px;
+    color:rgba(255,255,255,.35);
+    background:#1b1b1b;
+    padding:0 7px;
+}
+
+.about-quote p{
+    margin:0;
+    color:#fff;
+    font-size:15px;
+    line-height:1.7;
+    text-align:center;
+}
 
 body {
   color: var(--default-color);
